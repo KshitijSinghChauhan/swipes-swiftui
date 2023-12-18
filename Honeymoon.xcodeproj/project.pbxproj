@@ -17,6 +17,8 @@
 		10D4A96A2B3051A5003F266B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A9692B3051A5003F266B /* CardView.swift */; };
 		10D4A96C2B305B8A003F266B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A96B2B305B8A003F266B /* HeaderView.swift */; };
 		10D4A96E2B305FFB003F266B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A96D2B305FFB003F266B /* FooterView.swift */; };
+		10D4A9712B3064D8003F266B /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A9702B3064D8003F266B /* HeaderComponent.swift */; };
+		10D4A9732B30655E003F266B /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4A9722B30655E003F266B /* GuideComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		10D4A9692B3051A5003F266B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		10D4A96B2B305B8A003F266B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		10D4A96D2B305FFB003F266B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		10D4A9702B3064D8003F266B /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		10D4A9722B30655E003F266B /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		10018B6A2B303CFC00634A76 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				10D4A96F2B3064CA003F266B /* Component */,
 				10D4A9682B305186003F266B /* View */,
 				10D4A9672B3050DD003F266B /* Data */,
 				10D4A9642B305078003F266B /* Model */,
@@ -109,6 +114,15 @@
 				10D4A96D2B305FFB003F266B /* FooterView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		10D4A96F2B3064CA003F266B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				10D4A9702B3064D8003F266B /* HeaderComponent.swift */,
+				10D4A9722B30655E003F266B /* GuideComponent.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +200,11 @@
 				10D4A96E2B305FFB003F266B /* FooterView.swift in Sources */,
 				10D4A96C2B305B8A003F266B /* HeaderView.swift in Sources */,
 				10D4A9632B305074003F266B /* HoneymoonModel.swift in Sources */,
+				10D4A9712B3064D8003F266B /* HeaderComponent.swift in Sources */,
 				10018B6E2B303CFC00634A76 /* ContentView.swift in Sources */,
 				10018B6C2B303CFC00634A76 /* HoneymoonApp.swift in Sources */,
 				10D4A96A2B3051A5003F266B /* CardView.swift in Sources */,
+				10D4A9732B30655E003F266B /* GuideComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
