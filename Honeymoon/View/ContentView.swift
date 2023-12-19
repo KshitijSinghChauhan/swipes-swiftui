@@ -10,11 +10,14 @@ import SwiftUI
 struct ContentView: View {
     
     // MARK: - PROPERTIES
-    
     @State var showAlert: Bool = false
+    @State var showGuide: Bool = false
+    
+    // MARK: - BODY
+
     var body: some View {
         VStack {
-            HeaderView()
+            HeaderView(showGuideView: $showGuide)
             
             Spacer()
             
@@ -36,6 +39,8 @@ struct ContentView: View {
     }
 }
 
+
+// MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
